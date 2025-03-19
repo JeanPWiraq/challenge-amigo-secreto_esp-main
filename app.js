@@ -2,9 +2,9 @@
 const amigos = []; // Array para almacenar los nombres
 
 // Función para agregar un nombre al array
-  function agregarAmigo() {
-    const input = document.getElementById('amigo'); // Campo de texto
-    const nombre = input.value.trim(); // Limpia espacios adicionales
+    function agregarAmigo() {
+        const input = document.getElementById('amigo'); // Campo de texto
+        const nombre = input.value.trim(); // Limpia espacios adicionales
 
     if (nombre !== '') {
       amigos.push(nombre); // Añade el nombre al array
@@ -40,4 +40,3 @@ const amigos = []; // Array para almacenar los nombres
         const display = document.getElementById('resultado'); // Referencia al <p>
         display.textContent = `Amigo seleccionado: ${amigoAleatorio}`; // Muestra el nombre en pantalla
       }
-      
